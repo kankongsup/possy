@@ -1,0 +1,42 @@
+body {
+    background: url(anigif5.gif);
+    background-size: 2000px, 500px, 100px;
+}
+h1 {
+    color: white;
+   text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+p {
+    font-family: verdana;
+    font-size: 30px;
+}
+
+
+div {
+    width: 500px;
+    height: 160px;
+    background-color: blue;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 1s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    from {background-color: pink;}
+    to {background-color: green;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+p {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px;
+    width: 300px;
+    height: 60px;
+}
